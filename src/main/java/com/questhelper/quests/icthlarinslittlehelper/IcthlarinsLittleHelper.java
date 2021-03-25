@@ -378,7 +378,7 @@ public class IcthlarinsLittleHelper extends BasicQuestHelper
 		talkToCarpenter = new NpcStep(this, NpcID.CARPENTER, new WorldPoint(3313, 2770, 0), "Talk to the Carpenter in the east of Sophanem.", willowLog);
 		talkToCarpenter.addDialogStep("Alright, I'll get the wood for you.");
 		talkToCarpenterAgain = new NpcStep(this, NpcID.CARPENTER, new WorldPoint(3313, 2770, 0), "Talk to the Carpenter again in the east of Sophanem.");
-		talkToCarpenterOnceMore = new NpcStep(this, NpcID.CARPENTER, new WorldPoint(3313, 2770, 0), "Talk to the Carpenter again in the east of Sophanem once more.");
+		talkToCarpenterOnceMore = new NpcStep(this, NpcID.CARPENTER, new WorldPoint(3313, 2770, 0), "Talk to the Carpenter in the east of Sophanem once more.");
 
 		buyLinen = new NpcStep(this, NpcID.RAETUL, new WorldPoint(3311, 2787, 0), "Get some linen. You can buy some from Raetul in east Sophanem for 30 coins.", coinsOrLinen);
 
